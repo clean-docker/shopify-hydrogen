@@ -1,0 +1,8 @@
+spec:
+  name: shopify-hydrogen
+  services:
+  - name: shopify-hydrogen
+    dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/clean-docker/shopify-hydrogen.git
